@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bloons TD 6</title>
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/estilos.css">
+  <link rel="stylesheet" href="./src/css/responsivo.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+  <main>
+    <div class="bloonstd6">
+      <div class="cartoes-bloonstd">
+        <div class="cartao-bloonstd tipo-primario aberto" id="cartao-dardo">
+          <div class="cartao-topo">
+            <div class="detalhes">
+              <h2 class="nome">Dart Monkey</h2>
+              <span>#001</span>
+            </div>
+
+            <span class="tipo">Primary</span>
+
+            <div class="cartao-imagem">
+              <img src="./src/imagens/macaco-dardo.png" alt="Dardo" />
+            </div>
+          </div>
+
+          <div class="cartao-informacoes">
+            <div class="descricao">
+              <h3>Description</h3>
+
+              <p>
+                Throws a single dart at nearby Bloons. Short range and low pierce but cheap.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cartao-bloonstd tipo-militar" id="cartao-sniper">
+          <div class="cartao-topo">
+            <div class="detalhes">
+              <h2 class="nome">Sniper Monkey</h2>
+              <span>#002</span>
+            </div>
+
+            <span class="tipo">Military</span>
+
+            <div class="cartao-imagem">
+              <img src="./src/imagens/macaco-sniper.png" alt="Sniper" />
+            </div>
+          </div>
+
+          <div class="cartao-informacoes">
+            <div class="descricao">
+              <h3>Description</h3>
+              <p>
+                Can shoot Bloons it can see anywhere on the screen with a long-range rifle.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cartao-bloonstd tipo-magico" id="cartao-druida">
+          <div class="cartao-topo">
+            <div class="detalhes">
+              <h2 class="nome">Druid Monkey</h2>
+              <span>#003</span>
+            </div>
+
+            <span class="tipo">Magic</span>
+
+            <div class="cartao-imagem">
+              <img src="./src/imagens/macaco-druida.png" alt="druida" />
+            </div>
+          </div>
+
+          <div class="cartao-informacoes">
+            <div class="descricao">
+              <h3>Description</h3>
+              <p>
+                Creates a blast of thorns for each attack. Upgrades can call powers of the Jungle, Storm, or Wrath.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cartao-bloonstd tipo-suporte" id="cartao-fazenda">
+          <div class="cartao-topo">
+            <div class="detalhes">
+              <h2 class="nome">Banana Farm</h2>
+              <span>#004</span>
+            </div>
+
+            <span class="tipo">Support</span>
+
+            <div class="cartao-imagem">
+              <img src="./src/imagens/fazenda.png" alt="Fazenda" />
+            </div>
+          </div>
+
+          <div class="cartao-informacoes">
+            <div class="descricao">
+              <h3>Description</h3>
+
+              <p>
+                Generates Bananas each round that convert into game money to spend on more stuff.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cartao-bloonstd tipo-heroi" id="cartao-etienne">
+          <div class="cartao-topo">
+            <div class="detalhes">
+              <h2 class="nome">Etienne</h2>
+              <span>#005</span>
+            </div>
+
+            <span class="tipo">Hero</span>
+
+            <div class="cartao-imagem">
+              <img src="./src/imagens/etienne.png" alt="Etienne" />
+            </div>
+          </div>
+
+          <div class="cartao-informacoes">
+            <div class="descricao">
+              <h3>Description</h3>
+              <p>
+                This high-tech hero can pursue the Bloons wherever they go with his remote-controlled drone.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cartao-bloonstd tipo-heroi" id="cartao-benjamin">
+          <div class="cartao-topo">
+            <div class="detalhes">
+              <h2 class="nome">Benjamin</h2>
+              <span>#006</span>
+            </div>
+
+            <span class="tipo">Hero</span>
+
+            <div class="cartao-imagem">
+              <img src="./src/imagens/benjamin.png" alt="Benjamin" />
+            </div>
+          </div>
+
+          <div class="cartao-informacoes">
+            <div class="descricao">
+              <h3>Description</h3>
+              <p>
+                Using his elite hacking skills, Benjamin can generate extra money for the cause.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="listagem">
+        <ul>
+          <li class="bloonstd ativo" id="dardo">
+            <img src="./src/imagens/macaco-dardo.png" alt="Dardo">
+            <span>Dart Monkey</span>
+          </li>
+          <li class="bloonstd" id="sniper">
+            <img src="./src/imagens/macaco-sniper.png" alt="Sniper">
+            <span>Sniper Monkey</span>
+          </li>
+          <li class="bloonstd" id="druida">
+            <img src="./src/imagens/macaco-druida.png" alt="Druida">
+            <span>Druid Monkey</span>
+          </li>
+          <li class="bloonstd" id="fazenda">
+            <img src="./src/imagens/fazenda.png" alt="Fazenda">
+            <span>Banana Farm</span>
+          </li>
+          <li class="bloonstd" id="etienne">
+            <img src="./src/imagens/etienne.png" alt="Etienne">
+            <span>Hero Etienne</span>
+          </li>
+          <li class="bloonstd" id="benjamin">
+            <img src="./src/imagens/benjamin.png" alt="Benjamin">
+            <span>Hero Benjamin</span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </main>
+  <script src="./src/js/index.js"></script>
+</body>
+</html>
